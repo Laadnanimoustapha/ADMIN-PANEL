@@ -106,7 +106,7 @@ const Sidebar = ({ collapsed, mobileOpen, activeSection, setActiveSection, setMo
             {!collapsed && (
               <div>
                 <div className="font-bold text-lg text-neutral-800">ViroTech</div>
-                <div className="text-xs text-neutral-500 -mt-1">Enterprise Suite</div>
+                <div className="text-xs text-neutral-500 -mt-1">BY LAADNANI MUSTAPHA</div>
               </div>
             )}
           </div>
@@ -148,5 +148,6 @@ const Sidebar = ({ collapsed, mobileOpen, activeSection, setActiveSection, setMo
     </>
   );
 };
+
 
 export default Sidebar;
