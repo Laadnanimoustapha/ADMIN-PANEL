@@ -6,11 +6,12 @@ const LoadingScreen = () => {
       <div className="loading-logo">
         <i className="fas fa-rocket text-white text-3xl"></i>
       </div>
-      <div className="loading-text">ViroTech Enterprise</div>
+      <div className="loading-text">BY LAADNANI MUSTAPHA </div>
       <div className="loading-subtext">Initializing your dashboard...</div>
       <div className="loading-spinner"></div>
     </div>
   );
 };
+
 
 export default LoadingScreen;
